@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior to automatically normalize line endings
 * text=auto
+
+# Explicitly declare text files
+*.md text
+*.json text
+*.env text
+*.js text
+*.css text
+
+# Binary files (no line ending changes)
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+
+# Ignore node_modules
+node_modules/* -text

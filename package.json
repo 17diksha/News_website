@@ -1,0 +1,19 @@
+{
+  "name": "news-app-master",
+  "version": "1.0.0",
+  "description": "This is a news website built using the MERN stack (MongoDB, Express, React, Node.js). The website allows users to view news articles, search for articles by keyword, and create an account to save articles for later reading.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd server && npm run server\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
