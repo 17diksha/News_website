@@ -6,7 +6,7 @@ This is a news website built using the MERN stack (MongoDB, Express, React, Node
 
 To install the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/devanshkansagra/News-App.git`
+1. Clone the repository: `https://github.com/17diksha/News_website.git`
 2. Install the dependencies: `npm install`
 3. Create a `config.env` file in the server directory with the following variables:
    ```
@@ -29,12 +29,4 @@ To use the website, follow these steps:
 3. Search for articles by keyword using the search bar.
 4. Create an account to save articles for later reading.
 
-## Contributing
 
-Contributions are welcome! To contribute to the project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-feature-branch`
-3. Make your changes and commit them: `git commit -m "Add new feature"`
-4. Push your changes to your fork: `git push origin my-feature-branch`
-5. Create a pull request.
